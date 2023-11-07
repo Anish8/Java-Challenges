@@ -26,6 +26,8 @@ public class Main {
 
         Person man1 = new Person("Rahul", "Innovation", 34);
         Person man2 = new Person("Krishna","Research", 29);
+        Circle c1 = new Circle(5);
+        System.out.println("The area of circle is"+c1.getArea(5)+ "\n The Perimeter of circle is +"+c1.getPerimeter(5));
 
         System.out.println("Man1 name is"+man1.getName()+"Age is"+man1.getAge()+"His Department is"+man1.getDepartment());
     }
